@@ -14,8 +14,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-//go:build tinygo
-// +build tinygo
+//go:build tinygo || stdjson
+// +build tinygo stdjson
 
 package json
 
